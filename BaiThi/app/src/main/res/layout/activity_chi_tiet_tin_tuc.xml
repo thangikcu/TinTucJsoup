@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".view.activity.ChiTietTinTucActivity">
+
+
+    <TextView
+        android:id="@+id/tv_title"
+        style="@style/CommonTextView"
+        android:layout_width="match_parent"
+        android:gravity="left"
+        android:text="Title"
+        android:textColor="@color/colorTextInfo"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/tv_mo_ta"
+        style="@style/CommonTextView"
+        android:layout_width="match_parent"
+        android:gravity="left"
+        android:paddingTop="16dp"
+        android:textColor="@color/textMoTa"
+        android:text="Title"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/iv_hinh"
+        android:layout_width="240dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="32dp" />
+
+    <TextView
+        android:id="@+id/tv_noi_dung"
+        android:textSize="14sp"
+        style="@style/CommonTextView"
+        android:text="noi dung"
+        android:paddingTop="32dp"
+        android:gravity="left"
+        android:textColor="@color/textNoiDung"
+        android:typeface="serif"
+        android:layout_width="match_parent"/>
+</LinearLayout>
